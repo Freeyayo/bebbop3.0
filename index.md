@@ -1,37 +1,1180 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bangkok</title>
+	<style type="text/css">
+body,div,ol,ul,li,dl,dt,dd,h1,h3,h4,h5,h6,form,fieldset,legend,input{ 
+	margin:0; 
+	padding:0;
+}
+body{
+	background:#FF8C00;
+}
+#box{
+	position: relative;
+	width: 1345px;
+	height: 8500px;
+	margin: 0 auto;
+	overflow-x: hidden;
+}
+#nav{
+	position: absolute;
+	width: 600px;
+	height: 80px;
+	line-height: 80px;
+}
+#nav a:nth-child(1){
+	width: 200px;
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	color: red;
+	font-weight: bolder;
+	font-size: 20px;
+	left: 0px;
+}
+#nav a:nth-child(2){
+	width: 200px;
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	color: #778899;
+	font-weight: bolder;
+	font-size: 20px;
+	left: 200px;
+}
+#nav a:nth-child(3){
+	width: 200px;
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	color: #778899;
+	font-weight: bolder;
+	font-size: 20px;
+	left: 400px;
+}
+#totop{
+	position: fixed;
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+    font-weight: bolder;
+    background: #000;
+    right: 40px;
+    bottom: 100px;
+    z-index: 2;
+    opacity: 0.8;
+}
+#totop a{
+	text-decoration: none;
+	color: white;
+}
 
-You can use the [editor on GitHub](https://github.com/Freeyayo/bebbop3.0/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+#bangkok {
+	position: absolute;
+	left: 40px;
+	top: 260px;
+}
+#bangkok img:nth-child(1){
+         animation-name:b;
+         animation-duration: 3s;
+         animation-fill-mode: both;
+         animation-delay: 2s;
+}
+@keyframes b{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+#bangkok img:nth-child(2){
+         animation-name:a;
+         animation-duration: 3s;
+         animation-fill-mode: both;
+         animation-delay: 1s;
+}
+@keyframes a{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+#bangkok img:nth-child(3){
+         animation-name:n;
+         animation-duration: 3s;
+         animation-fill-mode: both;
+}
+@keyframes n{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+#bangkok img:nth-child(4){
+         animation-name:g;
+         animation-duration: 3s;
+         animation-fill-mode: both;
+         animation-delay: 1s;
+}
+@keyframes g{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+#bangkok img:nth-child(5){
+         animation-name:k1;
+         animation-duration: 3s;
+         animation-fill-mode: both;
+         animation-delay: 2s;
+}
+@keyframes k1{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+#bangkok img:nth-child(6){
+         animation-name:o;
+         animation-duration: 3s;
+         animation-fill-mode: both;
+         animation-delay: 3s;
+}
+@keyframes o{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+#bangkok img:nth-child(7){
+         animation-name:k2;
+         animation-duration: 3s;
+         animation-fill-mode: both;
+         animation-delay: 1s;
+}
+@keyframes k2{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+#sun{
+	margin:0; 
+	padding:0;
+	transform: scale(0.9);
+	right: 60px;
+	top: 0;
+	position: absolute;
+}
+#updiv{
+	position: absolute;
+	width: 1345px;
+    height:700px;
+    top: 450px;
+}
+#lt{
+	width: 250px;
+	height: 250px;
+	border: 7px solid #BDB76B;
+	border-radius: 10px;
+	background: #556B2F;
+	color: white;
+	font-family: comic sans ms;
+	font-size: 25px;
+	text-align: center;
+	line-height: 250px;
+	left: 250px;
+	top: 50px;
+    position: absolute;
+    animation-name: lt1;
+    animation-duration:60s;
+    animation-iteration-count: infinite;
+}
+@keyframes lt1{
+	0%{
+		opacity: 0;
+	}
+	2%{
+		opacity: 1;
+	}
+	31%{
+		opacity: 1;
+	}
+	33%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+#lt2{
+	width: 250px;
+	height: 250px;
+	border: 7px solid #BDB76B;
+	border-radius: 10px;
+	background: #556B2F;
+	color: white;
+	font-family: comic sans ms;
+	font-size: 25px;
+	text-align: center;
+	line-height: 250px;
+	left: 250px;
+	top: 50px;
+    position: absolute;
+    animation-name: lt2;
+    animation-duration:60s;
+    animation-iteration-count: infinite;   
+}
+@keyframes lt2{
+	0%{
+		opacity: 0;
+	}
+	33%{
+		opacity: 0;
+	}
+	35%{
+		opacity: 1;
+	}
+	64%{
+		opacity: 1;
+	}
+	66%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+#lt3{
+	width: 250px;
+	height: 250px;
+	border: 7px solid #BDB76B;
+	border-radius: 10px;
+	background: #556B2F;
+	color: white;
+	font-family: comic sans ms;
+	font-size: 25px;
+	text-align: center;
+	line-height: 250px;
+	left: 250px;
+	top: 50px;
+    position: absolute;
+    animation-name: lt3;
+    animation-duration:60s;
+    animation-iteration-count: infinite;    
+}
+@keyframes lt3{
+	0%{
+		opacity: 0;
+	}
+	66%{
+		opacity: 0
+	}
+	68%{
+		opacity: 1;
+	}
+	99%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+#ld{
+	padding: 10px;
+	width: 330px;
+	height: 330px;
+	border: 7px solid white;
+	background: brown;
+	border-radius: 10px;
+	font-family: "微软雅黑";
+	font-size: 25px;
+	color: white;
+	text-align: left;
+	left: 170px;
+	top: 350px;
+    position: absolute;
+    animation-name: ld1;
+    animation-duration:60s;
+    animation-iteration-count: infinite;
+}
+@keyframes ld1{
+	0%{
+		opacity: 0;
+	}
+	2%{
+		opacity: 1;
+	}
+	31%{
+		opacity: 1;
+	}
+	33%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+#ld2{
+	padding: 10px;
+	width: 330px;
+	height: 330px;
+	border: 7px solid white;
+	background: brown;
+	border-radius: 10px;
+	font-family: "微软雅黑";
+	font-size: 25px;
+	color: white;
+	text-align: left;
+	left: 170px;
+	top: 350px;
+    position: absolute;
+    animation-name: ld2;
+    animation-duration:60s;
+    animation-iteration-count: infinite;    
+}
+@keyframes ld2{
+	0%{
+		opacity: 0;
+	}
+	33%{
+		opacity: 0;
+	}
+	35%{
+		opacity: 1;
+	}
+	64%{
+		opacity: 1;
+	}
+	66%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+#ld3{
+	padding: 10px;
+	width: 330px;
+	height: 330px;
+	border: 7px solid white;
+	background: brown;
+	border-radius: 10px;
+	font-family: "微软雅黑";
+	font-size: 25px;
+	color: white;
+	text-align: left;
+	left: 170px;
+	top: 350px;
+    position: absolute;
+    animation-name: ld3;
+    animation-duration:60s;
+    animation-iteration-count: infinite;    
+}
+@keyframes ld3{
+	0%{
+		opacity: 0;
+	}
+	66%{
+		opacity: 0
+	}
+	68%{
+		opacity: 1;
+	}
+	99%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+#r{
+	width: 500px;
+	height: 500px;
+	border: 7px solid #FFD700;
+	border-radius: 10px;
+	left: 600px;
+	top: 100px;
+    position: absolute;
+    overflow: hidden;
+    animation-name: right1;
+    animation-duration:60s;
+    animation-iteration-count: infinite;
+}
+@keyframes right1{
+	0%{
+		opacity: 0;
+	}
+	2%{
+		opacity: 1;
+	}
+	31%{
+		opacity: 1;
+	}
+	33%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+#r img{
+	width: 500px;
+	height: 500px;
+}
+#r2{
+	width: 500px;
+	height: 500px;
+	border: 7px solid #FFD700;
+	border-radius: 10px;
+	left: 600px;
+	top: 100px;
+    position: absolute;
+    overflow: hidden;
+    animation-name: right2;
+    animation-duration:60s;
+    animation-iteration-count: infinite;
+}
+@keyframes right2{
+	0%{
+		opacity: 0;
+	}
+	33%{
+		opacity: 0;
+	}
+	35%{
+		opacity: 1;
+	}
+	64%{
+		opacity: 1;
+	}
+	66%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+#r2 img{
+	width: 500px;
+	height: 500px;
+}
+#r3{
+	width: 500px;
+	height: 500px;
+	border: 7px solid #FFD700;
+	border-radius: 10px;
+	left: 600px;
+	top: 100px;
+    position: absolute;
+    overflow: hidden;
+    animation-name: right3;
+    animation-duration:60s;
+    animation-iteration-count: infinite;
+}
+@keyframes right3{
+	0%{
+		opacity: 0;
+	}
+	66%{
+		opacity: 0
+	}
+	68%{
+		opacity: 1;
+	}
+	99%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+#r3 img{
+	width: 500px;
+	height: 500px;
+}
+#middiv1{
+	width: 500px;
+	height: 500px;
+	
+	position: absolute;
+	top: 1300px;
+	left: 400px;
+    transition-property:transform;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+#middiv1:hover{
+    transform:translateX(200px);
+}
+#middiv1:hover #mainpic{
+	transform: scale(0.8);
+}
+#middiv1:hover #chexiang{
+    opacity: 0;
+}
+#middiv1:hover #tianqiao{
+    opacity: 0;
+}
+#mainpic{
+    width: 500px;
+    height: 500px;
+    border: 7px solid white;
+    box-shadow: 0 0 10px;
+    border-radius: 7px;
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay:2s;
+}
+#chexiang{
+	width: 270px;
+	height: 200px;
+	border: 5px solid white;
+    border-radius: 7px;
+	position: absolute;
+	left: 650px;
+	top: -50px;
+	transform: rotateZ(90deg);
+	transition-property: opacity;
+	transition-duration: 0.5s;
+}
+#tianqiao{
+	width: 250px;
+	height: 250px;
+	border: 5px solid white;
+    border-radius: 7px;
+	position: absolute;
+	left: 680px;
+	top: 270px;
+	transform: rotateZ(90deg);
+	transition-property: opacity;
+	transition-duration: 0.5s;
+}
+#middiv1:hover #linehead{
+    opacity:1; 
+}
+#middiv1:hover #line1{
+    opacity:0.7; 
+}
+#middiv1:hover #line2{
+    opacity:0.7; 
+}
+#middiv1:hover #lineend{
+    opacity:1; 
+}
+#middiv1:hover #intro{
+	opacity: 1;
+}
+#linehead{
+	width: 250px;
+	height: 70px;
+	border: 5px solid #FFD700;
+	border-radius: 100px;
+	background: skyblue;
+	position: absolute;
+	text-align: center;
+	line-height: 70px;
+	font-family: comic sans ms;
+	color: #FFD700;
+	font-size: 25px;
+	left: -300px;
+	opacity: 0;
+	transition-property: opacity;
+	transition-duration: 1s;
+	transition-delay: 4s;
+}
+#line1{
+	width: 200px;
+	border: 3px solid #FFD700;
+	background: #FFD700;
+	position: absolute;	
+	transform-origin: 0px 0px;
+	transform:rotate(45deg);
+	left: -60px;
+	top: 68px;
+	opacity: 0;
+	transition-property: opacity;
+	transition-duration: 1s;
+	transition-delay: 4s;
+	z-index: 1;
+}
+#line2{
+    width: 300px;
+	border: 3px solid #FFD700;
+	background: #FFD700;
+	position: absolute;
+	left: 80px;
+	top: 213px;
+	opacity: 0;
+	transition-property: opacity;
+	transition-duration: 1s;
+	transition-delay: 4s;
+	z-index: 1;
+}
+#lineend{
+	width: 15px;
+	height: 15px;
+	border: 2px solid #FFD700;
+	border-radius: 70px;
+	background: #FFD700;
+	position: absolute;
+	left: 380px;
+	top: 207px;
+	opacity: 0;
+	transition-property: opacity;
+	transition-duration: 1s;
+	transition-delay: 4s;
+	z-index: 1;
+}
+#intro{
+	width: 350px;
+	height: 300px;
+	position: absolute;
+	background: #FF8C00;
+	left: -350px;
+	top: 200px;
+	text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: "微软雅黑";
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 1s;
+}
+#hidemiddiv1{
+	width: 400px;
+	height: 600px;
+	
+	position: absolute;
+	left: 0px;
+	top: 1200px;
+}
+#hidemiddiv2{
+	width: 400px;
+	height: 700px;
+	
+	position: absolute;
+	left: 1080px;
+	top: 1200px;
+}
+#middiv2{
+	width: 1345px;
+	height: 2045px;
+	position: absolute;
+	top: 2000px;
+}
+#jiejiao{
+    width: 350px;
+    height: 420px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-family: "微软雅黑";
+    font-size: 45px;
+    text-align: center;
+    line-height: 420px;
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+}
+#jiejiaopic{
+	position: absolute;
+	width: 350px;
+	height: 420px;
+	border: 5px solid #FF8C00;
+	box-shadow: 0 0 20px;
+    border-radius: 25px;
+    left: 900px;
+    top: 0;
+    transition-property: transform;
+    transition-duration: 2s;
+    z-index: 1;
+}
+#jiejiaopic:hover{
+    transform: scale(1.5) translateX(-50px) translateY(50px);
+}
 
-### Markdown
+#jiejiaointro{
+	width: 500px;
+	height: 170px;
+	position: absolute;
+	line-height: 50px;
+	font-size: 25px;
+    text-align: left;
+	left: 350px;
+    top: 260px;
+}
+#xiaoxiang{
+    width: 350px;
+    height: 420px;
+    position: absolute;
+    left: 1000px;
+    top: 600px;
+    font-family: "微软雅黑";
+    font-size: 45px;
+    text-align: center;
+    line-height: 420px;
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+}
+#xiaoxiangpic{
+	position: absolute;
+	width: 350px;
+	height: 420px;
+	border: 5px solid #FF8C00;
+	box-shadow: 0 0 20px;
+    border-radius: 25px;
+    left: -950px;
+    top: 200px;
+    transition-property: transform;
+    transition-duration: 2s;
+    z-index: 1;
+}
+#xiaoxiangpic:hover{
+    transform: scale(1.5) translateX(50px) translateY(50px);
+}
 
-```markdown
-Syntax highlighted code block
+#xiaoxiangintro{
+	width: 500px;
+	height: 170px;
+	position: absolute;
+	line-height: 50px;
+	font-size: 25px;
+    text-align: left;
+	left: -500px;
+    top: 300px;
+}
+#jiedao{
+    width: 350px;
+    height: 420px;
+    position: absolute;
+    left: 20px;
+    top: 1450px;
+    font-family: "微软雅黑";
+    font-size: 45px;
+    text-align: center;
+    line-height: 420px;
 
-# Header 1
-## Header 2
-### Header 3
+}
+#jiedaopic{
+	position: absolute;
+	width: 450px;
+	height: 380px;
+	border: 5px solid #FF8C00;
+	box-shadow: 0 0 20px;
+    border-radius: 25px;
+    left: 830px;
+    top: -50px;
+    transition-property: transform;
+    transition-duration: 2s;
+    z-index: 1;
+}
+#jiedaopic:hover{
+    transform: scale(1.5) translateX(-70px) translateY(50px);
+}
 
-- Bulleted
-- List
+#jiedaointro{
+	width: 500px;
+	height: 170px;
+	position: absolute;
+	line-height: 50px;
+	font-size: 25px;
+    text-align: left;
+	left: 350px;
+    top: 260px;
+}
+#middiv3{
+	width: 1345px;
+	height: 2245px;
+	position: absolute;
+	border: 1px solid #191970;
+	border-radius: 30px;
+	background:#191970;
+	top: 2030px;
+    left: -24px;
+}
+#ji{
+    width: 350px;
+    height: 420px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-family: "微软雅黑";
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    line-height: 420px;
 
-1. Numbered
-2. List
+}
+#jipic{
+	position: absolute;
+	width: 350px;
+	height: 420px;
+	border: 5px solid #6A5ACD;
+	box-shadow: 0 0 20px;
+    border-radius: 25px;
+    left: 900px;
+    top: 0;
+    transition-property: transform;
+    transition-duration: 2s;
+    z-index: 1;
+}
+#jipic:hover{
+    transform: scale(1.5) translateX(-50px) translateY(50px);
+}
 
-**Bold** and _Italic_ and `Code` text
+#jiintro{
+	width: 500px;
+	height: 170px;
+	position: absolute;
+	line-height: 50px;
+	font-size: 25px;
+    text-align: left;
+	left: 350px;
+    top: 260px;
+}
+#ditan{
+    width: 350px;
+    height: 420px;
+    position: absolute;
+    left: 1000px;
+    top: 600px;
+    font-family: "微软雅黑";
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    line-height: 420px;
+}
+#ditanpic{
+	position: absolute;
+	width: 360px;
+	height: 440px;
+	border: 5px solid #6A5ACD;
+	box-shadow: 0 0 20px;
+    border-radius: 25px;
+    left: -950px;
+    top: 200px;
+    transition-property: transform;
+    transition-duration: 2s;
+    z-index: 1;
+}
+#ditanpic:hover{
+   transform: scale(1.5) translateX(50px) translateY(50px);
+}
 
-[Link](url) and ![Image](src)
-```
+#ditanintro{
+	width: 500px;
+	height: 170px;
+	position: absolute;
+	line-height: 50px;
+	font-size: 25px;
+    text-align: left;
+	left: -500px;
+    top: 300px;
+}
+#centralworld{
+    width: 350px;
+    height: 420px;
+    position: absolute;
+    left: 20px;
+    top: 1450px;
+    font-family: "微软雅黑";
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    line-height: 420px;
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+}
+#centralworldpic{
+	position: absolute;
+	width: 450px;
+	height: 380px;
+	border: 5px solid #6A5ACD;
+	box-shadow: 0 0 20px;
+    border-radius: 25px;
+    left: 830px;
+    top: -50px;
+    transition-property: transform;
+    transition-duration: 2s;
+    z-index: 1;
+}
+#centralworldpic:hover{
+    transform: scale(1.5) translateX(-70px) translateY(50px);
+}
 
-### Jekyll Themes
+#centralworldintro{
+	width: 500px;
+	height: 170px;
+	position: absolute;
+	line-height: 50px;
+	font-size: 25px;
+    text-align: left;
+	left: 310px;
+    top: 260px;
+}
+#guo{
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	left: 650px;
+	top: 2000px;
+	line-height: 80px;
+	color: white;
+}
+#le{
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	left: 650px;
+	top: 2130px;
+	line-height: 80px;
+	color: white;
+}
+#yi{
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	left: 650px;
+	top: 2260px;
+	line-height: 80px;
+}
+#tian{
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	left: 650px;
+	top: 2390px;
+	line-height: 80px;
+}
+#middiv4{
+	width: 1345px;
+	height: 2145px;
+	position: absolute;
+	top: 2250px;
+}
+#zaocan{
+	position: absolute;
+	width: 600px;
+	height: 600px;
+	left: 380px;
+	top: 500px;
+}
+#zaocan:hover .line{
+	opacity: 1;
+}
+#zaocanpic{
+	width: 600px;
+	height: 600px;
+	border: 3px solid #FF8C00;
+	border-radius: 170px;
+}
+#zaocan:hover .tittle{
+	opacity: 1;
+    transform:translateY(80px);
+}
+#coffeeline{
+	position: absolute;
+	width: 450px;
+	background: #000;
+	border: 1px solid #000;
+	left: -250px;
+	top: 90px;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 2s;
+}
+#coffeetittle{
+	position: absolute;
+	top: -250px; /*-170*/
+	left:-250px;
+	font-size: 40px;
+	transition-property: opacity,transform;
+	transition-duration: 1s;
+	opacity: 0;
+}
+#riceline{
+	position: absolute;
+	width: 450px;
+	background: #000;
+	border: 1px solid #000;
+	left: -250px;
+	top: 530px;
+	opacity: 0;
+	transition-property: opacity;
+    transition-duration: 2s;
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Freeyayo/bebbop3.0/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+}
+#ricetittle{
+	position: absolute;
+	top: 200px; /*280*/
+	left:-250px;
+	font-size: 40px;
+	transition-property: opacity,transform;
+	transition-duration: 1s;
+	opacity: 0;
+}
+#eggline{
+	position: absolute;
+	width: 400px;
+	background: #000;
+	border: 1px solid #000;
+	left: 500px;
+	top: 250px;
+	opacity: 0;
+	transition-property: opacity;
+    transition-duration: 2s;
+}
+#eggtittle{
+	position: absolute;
+	width: 300px;
+	height: 100px;
+	line-height: 100px;
+	top: 80px; /*160*/
+	left: 670px;
+	font-size: 40px;
+	transition-property: opacity,transform;
+	transition-duration: 1s;
+	opacity: 0;
+}
+#zaocanintro{
+	position: absolute;
+	width: 600px;
+	height: 200px;
+	top: 620px;
+	-ms-text-align-last: left;
+	text-align-last: left;
+	line-height: 40px;
+	font-size: 25px;
+}
+#hidemiddiv3{
+	position: absolute;
+	width: 300px;
+	height: 600px;
+	left: 80px;
+	top: 440px;
+	z-index: 1;
+}
+#hidemiddiv4{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	left: 980px;
+	top: 460px;
+	z-index: 1;
+}
+#end{
+	position: absolute;
+	width: 400px;
+	height: 500px;
+	top: 1500px;
+	left: 100px;
+}
+#endpic{
+	width: 400px;
+	height: 500px;
+	border: 5px solid #FF8C00;
+	border-radius: 50px;
+}
+#endintro{
+	position: absolute;
+	width: 600px;
+	height: 200px;
+	top: 400px;
+	left: 500px;
+	-ms-text-align-last: left;
+	text-align-last: left;
+	line-height: 40px;
+	font-size: 25px;
+}
 
-### Support or Contact
+	</style>
+</head>
+<body>
+<div id="box">
+<div id="nav"><a href="https://freeyayo.github.io/bebbop2.0/">Home</a><a href="">ChiangMai</a><a href="">Pattaya</a></div>
+<div id="totop"><a href="#" target="_self">TOP</a></div>
+<div id="bangkok">
+<img src="http://s4.sinaimg.cn/orignal/002o6Zd6zy7cDpyoE4Hc3&690" alt="">&nbsp&nbsp
+<img src="http://s12.sinaimg.cn/orignal/002o6Zd6zy7cDpy2GfN2b&690" alt="">&nbsp&nbsp
+<img src="http://s13.sinaimg.cn/orignal/002o6Zd6zy7cDpAtlaQec&690" alt="">&nbsp&nbsp
+<img src="http://s16.sinaimg.cn/orignal/002o6Zd6zy7cDpzcARpef&690" alt="">&nbsp&nbsp
+<img src="http://s5.sinaimg.cn/orignal/002o6Zd6zy7cDpAfIocf4&690" alt="">&nbsp&nbsp
+<img src="http://s1.sinaimg.cn/orignal/002o6Zd6zy7cDpABnpe30&690" alt="">&nbsp&nbsp
+<img src="http://s2.sinaimg.cn/orignal/002o6Zd6zy7cDpAmcxz81&690" alt="">&nbsp&nbsp
+</div>
+<img  id="sun" src="http://s8.sinaimg.cn/orignal/002o6Zd6zy7cDpANnq707&690" alt="">
+<div id="updiv">
+<div id="lt">Meat Of Pig Neck</div><div id="lt2">Fruit</div><div id="lt3">Chicken Rice</div>
+<div id="ld"><br><br>&nbsp&nbsp猪颈肉，看起来好吃但不干净。摊位前就是穿过贫民窟的铁路。</div><div id="ld2"><br><br>&nbsp&nbsp街边的水果摊，价格合理，看起来很新鲜。</div><div id="ld3"><br><br>&nbsp&nbsp生意很好的鸡肉饭餐厅，店外排满了各个国家的人，味道中上，泰餐。</div>
+<div id="r"><img src="http://s11.sinaimg.cn/orignal/002o6Zd6zy7cDpxPPbc9a&690" alt=""></div><div id="r2"><img src="http://s14.sinaimg.cn/orignal/002o6Zd6zy7cDpSM9cNbd&690" alt=""></div><div id="r3"><img src="http://s15.sinaimg.cn/orignal/002o6Zd6zy7cDpJuCKy5e&690" alt=""></div>
+</div>
+<div id="middiv1">
+<img id="chexiang" src="http://s6.sinaimg.cn/orignal/002o6Zd6zy7cDpHdMLb15&690" alt="">
+<img id="tianqiao" src="http://s9.sinaimg.cn/orignal/002o6Zd6zy7cDpQqKGQ28&690" alt="">
+<div id="linehead">City Line</div>
+<div id="line1"></div>
+<div id="line2"></div>
+<div id="lineend"></div>
+<img id="mainpic" src="http://s8.sinaimg.cn/orignal/002o6Zd6zy7cDpwfzYr57&690" alt="">
+<div id="intro">&nbsp&nbsp曼谷交通很发达，以至于人口密度如此大的情况下，也能做到井然有序。City Line也是贯穿了曼谷市的一个重要交通工具。</div>
+</div>
+<div id="hidemiddiv1"></div>
+<div id="hidemiddiv2"></div>
+<div id="middiv2">
+<div id="jiejiao">曼谷街角<img id="jiejiaopic" src="http://s10.sinaimg.cn/orignal/002o6Zd6zy7cDpBDJ7X59&690" alt=""><div id="jiejiaointro">&nbsp&nbsp&nbsp&nbsp在白天，任何一个街角都有很多人车过往等红绿灯、过马路、司机主动礼让行人。这就是曼谷街角。</div>
+<div id="xiaoxiang">居民区小巷<img id="xiaoxiangpic" src="http://s8.sinaimg.cn/orignal/002o6Zd6zy7cDpCWixh87&690" alt=""><div id="xiaoxiangintro">&nbsp&nbsp&nbsp&nbsp曼谷市区里的这些小巷，成了这里最有生活气息的地方，与其说是小巷，不如说是个小市场。</div>
+</div>
+<div id="jiedao">市中心街道<img id="jiedaopic" src="http://s3.sinaimg.cn/orignal/002o6Zd6zy7cDpBZ3jAd2&690" alt=""><div id="jiedaointro">&nbsp&nbsp&nbsp&nbsp靠近Central World的街道，繁华的市中心。到处都是突突车和摩托车的声音。</div>
+</div>
+<div id="middiv3">
+<div id="ji">居民巷<img id="jipic" src="http://s9.sinaimg.cn/orignal/002o6Zd6zy7cDpJsmwwc8&690" alt=""><div id="jiintro">&nbsp&nbsp&nbsp&nbsp跟着出错的导航进入了一处可怕居民区，有几个在喝酒的纹身泰国人大声说话，大多数家庭都很安静，开着门，鞋堆在门口。</div>
+</div>
+<div id="ditan">地摊<img id="ditanpic" src="http://s14.sinaimg.cn/orignal/002o6Zd6zy7cDpX75Ct7d&690" alt=""><div id="ditanintro">&nbsp&nbsp&nbsp&nbsp大型百货商场门口聚集了很多地摊商贩，主要是一些便宜的服装。还可以感受到很大的海风。</div>
+</div>
+<div id="centralworld">夜晚的街道<img id="centralworldpic" src="http://s12.sinaimg.cn/orignal/002o6Zd6zy7cDq4Labx3b&690" alt=""><div id="centralworldintro">&nbsp&nbsp&nbsp&nbsp突突车和摩托车的声音依然很大，虽然没有白天那么明显，曼谷市中心的夜景还是很好的。</div>
+</div>
+<div id="guo">过</div>
+<div id="le">了</div>
+<div id="yi">一</div>
+<div id="tian">天</div>
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<div id="middiv4">
+<div id="end">
+<img id="endpic" src="http://s16.sinaimg.cn/orignal/002o6Zd6zy7cDpA7RyTef&690" alt="">
+<div id="endintro">&nbsp&nbsp从曼谷东站出发前往Pattaya</div>
+</div>
+<div id="hidemiddiv3"></div>
+<div id="hidemiddiv4"></div>
+<div id="zaocan">
+<img id="zaocanpic" src="http://s8.sinaimg.cn/orignal/002o6Zd6zy7cDpJshan57&690" alt="">
+<div id="coffeeline" class="line"></div>
+<div id="coffeetittle" class="tittle">黑咖啡</div>
+<div id="riceline" class="line"></div>
+<div id="ricetittle" class="tittle">鸡绞肉饭</div>
+<div id="eggline" class="line"></div>
+<div id="eggtittle" class="tittle">糖心蛋</div>
+<div id="zaocanintro">&nbsp&nbsp厨师做的现做早餐，种类丰富，我选择的是咖啡、鸡绞肉饭、煎蛋。鸡绞肉饭有很浓的泰餐味，鸡肉做成了丸子状。</div>
+</div>
+</div>
+
+</div>
+
+</div>	
+</body>
+</html>
